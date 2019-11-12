@@ -16,10 +16,15 @@ class CountryDetailViewController: UIViewController {
     
     @IBOutlet weak var imageView: UIImageView!
     
+    @IBOutlet weak var descriptiopnField: UITextView!
+    
+    @IBOutlet weak var continentField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         imageView.image = UIImage(named: "\(country.fullImageName)")
-        
+        descriptiopnField.text = country.description
+        continentField.text = country.continent
         
         // set title of navigation bar
         title = country.name
