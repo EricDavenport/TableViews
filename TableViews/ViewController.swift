@@ -89,6 +89,7 @@ extension ViewController: UITableViewDataSource {
     // dequeueReusableCell:
     // recycles a cell if it exist
     // if the cell does not exist a new cell is created
+    // get a cell using currentIndex
     let cell = tableView.dequeueReusableCell(withIdentifier: "countryCell", for: indexPath)
     
     // get the object (country) at the current indexPath

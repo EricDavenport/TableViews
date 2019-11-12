@@ -14,6 +14,8 @@
 		57758E732379BE7000D58002 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57758E722379BE7000D58002 /* Assets.xcassets */; };
 		57758E762379BE7000D58002 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57758E742379BE7000D58002 /* LaunchScreen.storyboard */; };
 		57758E7E2379BEA200D58002 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57758E7D2379BEA200D58002 /* Country.swift */; };
+		580BE205237B1C9400EB8A28 /* ContinentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580BE204237B1C9400EB8A28 /* ContinentsViewController.swift */; };
+		580BE207237B50EA00EB8A28 /* CountryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580BE206237B50EA00EB8A28 /* CountryDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		57758E752379BE7000D58002 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57758E772379BE7000D58002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57758E7D2379BEA200D58002 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		580BE204237B1C9400EB8A28 /* ContinentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinentsViewController.swift; sourceTree = "<group>"; };
+		580BE206237B50EA00EB8A28 /* CountryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				57758E7D2379BEA200D58002 /* Country.swift */,
 				57758E6D2379BE6B00D58002 /* ViewController.swift */,
 				57758E6F2379BE6C00D58002 /* Main.storyboard */,
+				580BE206237B50EA00EB8A28 /* CountryDetailViewController.swift */,
+				580BE204237B1C9400EB8A28 /* ContinentsViewController.swift */,
 				57758E722379BE7000D58002 /* Assets.xcassets */,
 				57758E742379BE7000D58002 /* LaunchScreen.storyboard */,
 				57758E772379BE7000D58002 /* Info.plist */,
@@ -141,6 +147,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				580BE207237B50EA00EB8A28 /* CountryDetailViewController.swift in Sources */,
+				580BE205237B1C9400EB8A28 /* ContinentsViewController.swift in Sources */,
 				57758E7E2379BEA200D58002 /* Country.swift in Sources */,
 				57758E6E2379BE6B00D58002 /* ViewController.swift in Sources */,
 				57758E6A2379BE6B00D58002 /* AppDelegate.swift in Sources */,
@@ -291,6 +299,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZEKMNK5YD3;
 				INFOPLIST_FILE = TableViews/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +318,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZEKMNK5YD3;
 				INFOPLIST_FILE = TableViews/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
